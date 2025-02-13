@@ -87,7 +87,9 @@ class PMPro_Email_Template_Checkout_Free extends PMPro_Email_Template {
 
 <p>Account: !!display_name!! (!!user_email!!)</p>
 <p>Membership Level: !!membership_level_name!!</p>
-!!membership_expiration!! !!discount_code!!', 'paid-memberships-pro' );
+!!membership_expiration!! !!discount_code!!
+
+<p>Log in to your membership account here: !!login_url!!</p>', 'paid-memberships-pro' );
 	}
 
 	/**
